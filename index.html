@@ -1,50 +1,146 @@
 <!doctype html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<title>reveal.js</title>
+    <title>reveal.js</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/black.css">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+    <!-- Theme used for syntax highlighting of code -->
+    <link rel="stylesheet" href="lib/css/zenburn.css">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+    <!-- Printing and PDF exports -->
+    <script>
+        var link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+        document.getElementsByTagName('head')[0].appendChild(link);
+    </script>
+</head>
+<body>
+<div class="reveal">
+    <div class="slides">
+        <section>
+            <h1>Agile</h1>
+            (some) Principles and (actually no) practices
+        </section>
+        <section>
+            <p>I'll cover a bit of what it means to be "agile" </p>
+            <p>This is a quick intro - not an extensive description</p>
+        </section>
+        <section>
+            <h2>Also, piglets</h2>
+            <img src="img/pig1.jpg">
+            <p>No, no cats</p>
+            <p>You can thank Sergio for that</p>
+        </section>
+        <section>
+            <h2>Agile</h2>
+            <p>What is agile?</p>
+        </section>
+        <section>
+            <h2>Agile</h2>
+            <p>Agile are not practices</p>
+            <p>Agile is a set of <strong>principles</strong></p>
+            <p>There are 12 principles, I will talk about 5</p>
+        </section>
+        <section>
+            <h2>Pig break</h2>
+            <img src="img/pig2.jpg">
+        </section>
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+        <section>
+            <h2>Agile Principles</h2>
+            <p><i>"Our highest priority is to satisfy the customer
+                through <strong>early</strong> and <strong>continuous</strong> delivery
+                of <strong>valuable</strong> software."</i></p>
+            <p></p>
+            <ul>
+                <li>Deliver often</li>
+                <li>Implement first what adds more value</li>
+                <li>Skip what is not really needed</li>
+            </ul>
+        </section>
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
+        <section>
+            <h2>Agile</h2>
+            <p><i>"Welcome changing requirements, even late in
+                development. Agile processes harness change for
+                the customer's competitive advantage."</i></p>
+            <p></p>
+            <ul>
+                <li>Customers change their minds - and that's ok</li>
+                <li>Prepare for change with good communication and tech practices</li>
+            </ul>
+        </section>
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
+        <section>
+            <h2>Agile</h2>
+            <p><i>"Build projects around motivated individuals.
+                Give them the environment and support they need,
+                and trust them to get the job done."</i></p>
+            <ul>
+                <li>Rely on your team - they are there for you</li>
+                <li>If you need something, ask</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Agile</h2>
+            <p><i>"Working software is the primary measure of progress."</i></p>
+            <ul>
+                <li>Customers want working software</li>
+                <li>All other metrics are secondary</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Agile</h2>
+            <p><i>"At regular intervals, the team reflects on how
+                to become more effective, then tunes and adjusts
+                its behavior accordingly."</i></p>
+            <ul>
+                <li>Communication is key - give and accept feedback</li>
+                <li>Do be afraid to be honest - if you give honest feedback, you will be sure you are getting honest feedback</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Agile</h2>
+            <p>Questions?</p>
+        </section>
+
+        <section>
+            <h2>Thank you</h2>
+            <img src="img/pig3.jpg">
+        </section>
+    </div>
+</div>
+
+<script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script>
+
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            {src: 'plugin/markdown/marked.js'},
+            {src: 'plugin/markdown/markdown.js'},
+            {src: 'plugin/notes/notes.js', async: true},
+            {
+                src: 'plugin/highlight/highlight.js', async: true, callback: function () {
+                hljs.initHighlightingOnLoad();
+            }
+            }
+        ]
+    });
+</script>
+</body>
 </html>
